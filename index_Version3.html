@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamie DeSantis | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background: url('nature-3082832_1920.jpg') no-repeat center center fixed;
+            background-size: cover;
+            min-height: 100vh;
+            font-family: "Poppins", sans-serif;
+            color: #fff;
+            margin: 0;
+        }
+        .overlay {
+            background: rgba(0,0,0,0.6);
+            min-height: 100vh;
+            width: 100vw;
+            position: fixed;
+            top: 0; left: 0;
+            z-index: 0;
+        }
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 700px;
+            margin: 40px auto;
+            background: rgba(30,30,30,0.6);
+            border-radius: 16px;
+            box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+            padding: 36px 32px 32px 32px;
+            backdrop-filter: blur(6px);
+        }
+        h1 {
+            font-size: 2.6rem;
+            font-weight: 900;
+            margin-bottom: 0.4em;
+            color: #fff;
+            text-shadow: 0 2px 16px #000a;
+        }
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-top: 2em;
+            margin-bottom: 0.6em;
+            color: #ffdf6b;
+        }
+        .about, .projects, .contact {
+            margin-bottom: 2em;
+        }
+        .projects-list {
+            list-style: none;
+            padding: 0;
+        }
+        .project-card {
+            background: rgba(255,255,255,0.08);
+            border-radius: 10px;
+            margin-bottom: 1.2em;
+            padding: 20px 22px;
+            box-shadow: 0 2px 8px 0 rgba(0,0,0,0.09);
+        }
+        .project-title {
+            font-size: 1.2rem;
+            color: #ffdf6b;
+            margin: 0 0 0.2em 0;
+        }
+        .project-meta {
+            font-size: 0.95em;
+            color: #ffe;
+            margin-bottom: 0.3em;
+        }
+        .project-actions a {
+            color: #ffe066;
+            font-weight: 600;
+            text-decoration: none;
+            margin-right: 1.2em;
+            transition: color 0.2s;
+        }
+        .project-actions a:hover {
+            color: #fffbe7;
+            text-decoration: underline;
+        }
+        .contact-info a {
+            color: #ffdf6b;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 18px 8px 16px 8px;
+                max-width: 96vw;
+            }
+            h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="container">
+        <h1>👋 Hi, I'm Jamie DeSantis</h1>
+        <div class="about">
+            <p>
+                💻 <b>Aspiring Web Developer | Computer Science Student | Creative Problem Solver</b>
+            </p>
+            <p>
+                Welcome to my coding portfolio! Here you'll find my personal projects that highlight my skills in HTML, CSS, JavaScript, and design.
+            </p>
+            <ul>
+                <li>🎓 Studying Computer Science at Middlesex County College</li>
+                <li>🎮 Avid gamer and aspiring game developer (Roblox Studio experience)</li>
+                <li>🎥 Content creator with 4,000+ YouTube subscribers</li>
+                <li>💬 Passionate about design, problem-solving, and learning new technologies</li>
+            </ul>
+        </div>
+
+        <h2>🚀 Projects</h2>
+        <ul class="projects-list">
+            <li class="project-card">
+                <div class="project-title">Login Page</div>
+                <div class="project-meta">HTML, CSS, Boxicons</div>
+                <div>
+                    A modern, responsive login page featuring glassmorphism effects and clean design.<br>
+                    <span class="project-actions">
+                        <a href="Login%20page.html" target="_blank" rel="noopener">View Live Demo</a>
+                        <a href="https://github.com/JaimanCodeROCKS/JaimanCodeROCKS-Portfolio/blob/main/Login%20page.html" target="_blank" rel="noopener">Source Code</a>
+                    </span>
+                </div>
+            </li>
+            <li class="project-card">
+                <div class="project-title">Scraping Website with Signup</div>
+                <div class="project-meta">HTML, CSS, Ionicons, JavaScript</div>
+                <div>
+                    A multi-page UI concept for a web scraping service, featuring login and registration forms.<br>
+                    <span class="project-actions">
+                        <a href="scraping%20website.html" target="_blank" rel="noopener">View Live Demo</a>
+                        <a href="https://github.com/JaimanCodeROCKS/JaimanCodeROCKS-Portfolio/blob/main/scraping%20website.html" target="_blank" rel="noopener">Source Code</a>
+                    </span>
+                </div>
+            </li>
+        </ul>
+
+        <h2>📫 Connect with Me</h2>
+        <div class="contact contact-info">
+            <b>Email:</b> <a href="mailto:jaiman020906@gmail.com">jaiman020906@gmail.com</a><br>
+            <b>GitHub:</b> <a href="https://github.com/JaimanCodeROCKS" target="_blank" rel="noopener">JaimanCodeROCKS</a>
+        </div>
+    </div>
+</body>
+</html>
